@@ -22,7 +22,7 @@ if __name__ == "__main__":
     car = Car("ABC-123", 142)
 
     car.accelerate(60)
-    car.drive(1.5)
+    car.drive(1.5 )
 
     print("Current speed:", car.current_speed, "km/h")
     print("Travelled distance:", car.traveled_distance, "km")
